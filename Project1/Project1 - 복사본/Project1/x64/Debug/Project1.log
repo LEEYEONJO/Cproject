@@ -1,0 +1,9 @@
+﻿  4입력.c
+C:\Users\admin\source\repos\Project1\4입력.c(45,2): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\admin\source\repos\Project1\4입력.c(57,2): error C2146: 구문 오류: ';'이(가) 'scanf' 식별자 앞에 없습니다.
+C:\Users\admin\source\repos\Project1\4입력.c(57,14): error C2065: 'item': 선언되지 않은 식별자입니다.
+C:\Users\admin\source\repos\Project1\4입력.c(57,8): warning C4477: 'scanf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+C:\Users\admin\source\repos\Project1\4입력.c(60,37): error C2065: 'item': 선언되지 않은 식별자입니다.
+C:\Users\admin\source\repos\Project1\4입력.c(60,9): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+C:\Users\admin\source\repos\Project1\4입력.c(60,9): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\admin\source\repos\Project1\4입력.c(57,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
