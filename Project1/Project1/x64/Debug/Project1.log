@@ -1,5 +1,2 @@
-﻿  10.배열 연습문제.c
-C:\leeyj\Cproject\Project1\10.배열 연습문제.c(1,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
-C:\leeyj\Cproject\Project1\10.배열 연습문제.c(32,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\leeyj\Cproject\Project1\10.배열 연습문제.c(52,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\leeyj\Cproject\Project1\10.배열 연습문제.c(58,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  13.배열2.c
+  Project1.vcxproj -> C:\leeyj\Cproject\Project1\x64\Debug\Project1.exe
