@@ -19,7 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="13.배열2.c" />
+    <ClCompile Include="14.함수.c" />
+    <ClCompile Include="15.함수2.c" />
+    <ClCompile Include="16.함수3..c" />
+    <ClCompile Include="17.함수 연습문제.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

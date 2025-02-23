@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\leeyj\\Cproject\\Project1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39EEE110-0F84-47CF-81A2-D04A2F4089AA}|Project1.vcxproj|C:\\leeyj\\Cproject\\Project1\\17.\uD568\uC218 \uC5F0\uC2B5\uBB38\uC81C.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{39EEE110-0F84-47CF-81A2-D04A2F4089AA}|Project1.vcxproj|solutionrelative:17.\uD568\uC218 \uC5F0\uC2B5\uBB38\uC81C.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39EEE110-0F84-47CF-81A2-D04A2F4089AA}|Project1.vcxproj|C:\\leeyj\\Cproject\\Project1\\16.\uD568\uC2183..c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{39EEE110-0F84-47CF-81A2-D04A2F4089AA}|Project1.vcxproj|solutionrelative:16.\uD568\uC2183..c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "16.\uD568\uC2183..c",
+              "DocumentMoniker": "C:\\leeyj\\Cproject\\Project1\\16.\uD568\uC2183..c",
+              "RelativeDocumentMoniker": "16.\uD568\uC2183..c",
+              "ToolTip": "C:\\leeyj\\Cproject\\Project1\\16.\uD568\uC2183..c",
+              "RelativeToolTip": "16.\uD568\uC2183..c",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-02-23T02:29:22.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "17.\uD568\uC218 \uC5F0\uC2B5\uBB38\uC81C.c",
+              "DocumentMoniker": "C:\\leeyj\\Cproject\\Project1\\17.\uD568\uC218 \uC5F0\uC2B5\uBB38\uC81C.c",
+              "RelativeDocumentMoniker": "17.\uD568\uC218 \uC5F0\uC2B5\uBB38\uC81C.c",
+              "ToolTip": "C:\\leeyj\\Cproject\\Project1\\17.\uD568\uC218 \uC5F0\uC2B5\uBB38\uC81C.c",
+              "RelativeToolTip": "17.\uD568\uC218 \uC5F0\uC2B5\uBB38\uC81C.c",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAE8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-02-23T02:03:49.189Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -97,16 +97,100 @@ int main()
 	}
 
 	//도전과제 1 난이도 하
-	// 1 2 3
-	//6 5 4
-	//7 8 9
+	// 1 2 3         00 01 02
+	//6 5 4          10 11 12 
+	//7 8 9          20 21 22
+
+	int value4[3][3];
+	int value = 1;
+
+	printf("\n과제 1\n");
+	//패턴 구현
+	///value4[i][j]라고 할때 i가 짜수인 경우는 j가 순차적으로 증가할 때, 값이 추가합니다
+	//                      i가 홀수인 경우에는 j가 마지막 위치부터 첫번째 위치까지 값이 역순으로 증가합니다.
+
+	for (int i = 0; i < 3; i++)
+	{
+		//i가 짝수인 경우에는 순서대로 값이 증가
+		if (i % 2 == 0)
+		{
+			for (int j = 0; j < 3; j++)
+			{
+				value4[j][i] = value++;
+			}
+		}
+		else
+			for (int j = 2; j >= 0; j--)
+			{
+				value3[j][i] = value++;
+			}
+		}
+	}
+	
+	//출력
+	for (int i = 0; i < 3; i++)
+	{
+		for (int j = 0; j < 3; j++)
+		{
+			printf("%d ", value4[i][j]);
+		}
+		printf("\n");
+	}
 
 	//도전과제 2 난이도 상
 	//1 2 3
 	//8 9 4
 	//7 6 4
 
+	int value5[3][3];
+	int value = 1;
 
+	int top = 0;
+	int bottom = 2;
+	int left = 0;
+	int right = 2;
+
+	//배열의 길이만큼 반복 작업
+	for (int arrays = 0; arrays < (sizeof(valuse)/ sizeof(int)) - 1; arrays++)
+
+
+	// -> 방향 구현
+	for (int i = left; i <= right; i++)
+	{
+		value5[top][i] = value++;
+	}
+	top++;
+	// 오른쪽 방향 구현
+	for (int i = top; i <= bottom; i++)
+	{
+		value5[top][right] = value++;
+	}
+    //아래 방향
+	right--;
+	for (int i = right; i >= left; i++)
+	{
+		value5[bottom][i] = value++;
+	}
+	//방향 구현
+	bottom--;
+	for (int i = bottom; i >= top; i--)
+	{
+		value5[i][left] = value++;
+	}
+	left++;
+
+
+
+
+	printf("\n과제 2\n");
+	for (int i = 0; i < 3; i++)
+	{
+		for (int j = 0; j < 3; j++)
+		{
+			printf("%d ", value5[i][j]);
+		}
+		printf("\n");
+	}
 
 
 	return 0;

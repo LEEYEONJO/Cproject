@@ -1,2 +1,5 @@
-﻿  13.배열2.c
-  Project1.vcxproj -> C:\leeyj\Cproject\Project1\x64\Debug\Project1.exe
+﻿  16.함수3..c
+C:\leeyj\Cproject\Project1\16.함수3..c(53,6): error C2084: 'void printArray(int *,int)' 함수에 이미 본문이 있습니다.
+C:\leeyj\Cproject\Project1\16.함수3..c(57,10): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\leeyj\Cproject\Project1\16.함수3..c(57,10): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\leeyj\Cproject\Project1\16.함수3..c(73,2): warning C4013: 'printArrayptr'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
