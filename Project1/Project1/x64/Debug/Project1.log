@@ -1,5 +1,12 @@
-﻿  16.함수3..c
-C:\leeyj\Cproject\Project1\16.함수3..c(53,6): error C2084: 'void printArray(int *,int)' 함수에 이미 본문이 있습니다.
-C:\leeyj\Cproject\Project1\16.함수3..c(57,10): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
-C:\leeyj\Cproject\Project1\16.함수3..c(57,10): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
-C:\leeyj\Cproject\Project1\16.함수3..c(73,2): warning C4013: 'printArrayptr'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+﻿  21.문자열 관련 기능.c
+C:\leeyj\Cproject\Project1\21.문자열 관련 기능.c(32,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\leeyj\Cproject\Project1\21.문자열 관련 기능.c(36,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\leeyj\Cproject\Project1\21.문자열 관련 기능.c(49,9): error C2065: 'sample2': 선언되지 않은 식별자입니다.
+C:\leeyj\Cproject\Project1\21.문자열 관련 기능.c(49,9): warning C4047: '함수': 'char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\leeyj\Cproject\Project1\21.문자열 관련 기능.c(49,9): warning C4024: 'strcpy': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\leeyj\Cproject\Project1\21.문자열 관련 기능.c(49,18): error C2065: 'sample': 선언되지 않은 식별자입니다.
+C:\leeyj\Cproject\Project1\21.문자열 관련 기능.c(49,18): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\leeyj\Cproject\Project1\21.문자열 관련 기능.c(49,18): warning C4024: 'strcpy': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+C:\leeyj\Cproject\Project1\21.문자열 관련 기능.c(50,15): error C2065: 'sample2': 선언되지 않은 식별자입니다.
+C:\leeyj\Cproject\Project1\21.문자열 관련 기능.c(50,9): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+C:\leeyj\Cproject\Project1\21.문자열 관련 기능.c(50,9): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 1과(와) 충돌합니다.
